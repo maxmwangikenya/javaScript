@@ -1,5 +1,3 @@
-package src;
-
 import java.util.Scanner;
 
 public class Practice{
@@ -13,13 +11,7 @@ public class Practice{
         int age = scanner.nextInt();
 
         System.out.println("Hello" + name);
-        System.out.println("you are"  + age + "yaers old");
+        System.out.println("you are "+ age+ "years old");
 
-        if(age >= 18 ){
-            System.out.println("You are an adult");
-        }
-        else if(age <18 ){
-            System.out.println("you are a child");
-        }
     }
 }
