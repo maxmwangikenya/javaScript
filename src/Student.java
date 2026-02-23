@@ -1,15 +1,17 @@
-package src;
+public class Student{
 
-public class Student {
-    public static void main(String[] args) {
-        String name = "Rosejoy";
-        int age = 20;
-        String country = "Kenya";
-        boolean isStudent = true;
+    String name;
+    int age;
+    String course;
 
-        System.out.println("Name:" + name);
-        System.out.println("age:" + age);
-        System.out.println("country:"+ country);
-        System.out.println("Student:" + isStudent);
+    public static void main(String[] args){
+
+        Student student1 = new Student();
+
+        student1.name = "Rosejoy";
+        student1.age = 35;
+        student1.course = "Software Engineering";
+
+        System.out.println("name:" + student1.name);
     }
 }
